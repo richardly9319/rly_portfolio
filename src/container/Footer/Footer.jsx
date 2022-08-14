@@ -44,7 +44,7 @@ const Footer = () => {
       <div className="app__footer-cards">
         <div className="app__footer-card ">
           <img src={images.email} alt="email" />
-          <a href="mailto:hello@richardly.com" className="p-text">hello@richardly.com</a>
+          <a href="mailto:info@richardly.com" className="p-text">info@richardly.com</a>
         </div>
         <div className="app__footer-card">
           <img src={images.mobile} alt="phone" />
@@ -78,10 +78,7 @@ const Footer = () => {
         </div>
       )}
 
-      <div className="copyright">
-          <h1 className="p-text" >@2022 Richard Ly</h1>
-          <h1 className="p-text">All rights reserved</h1>
-        </div>
+      
       
       <SocialMedia />
     </>

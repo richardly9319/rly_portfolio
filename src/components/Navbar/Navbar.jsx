@@ -10,15 +10,17 @@ const Navbar = () => {
 
   return (
     <nav className="app__navbar">
-      <motion.div className="app__navbar-logo" whileHover={{ scale: 1.1 }} transition={{ duration: 0.5, type: 'tween' }}>
+      
         <h1 className="logo">Richard Ly</h1>
-      </motion.div>
+        
       <ul className="app__navbar-links">
-        {['home', 'about', 'work', 'contact'].map((item) => (
+        {['home', 'education', 'work', 'contact'].map((item) => (
+          <motion.div whileHover={{ scale: 1.1 }} transition={{ duration: 0.5, type: 'tween' }}>
           <li className="app__flex p-text" key={`link-${item}`}>
             <div />
             <a href={`#${item}`}>{item}</a>
           </li>
+          </motion.div>
         ))}
       </ul>
 

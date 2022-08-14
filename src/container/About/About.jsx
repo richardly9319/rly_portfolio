@@ -5,6 +5,8 @@ import { AppWrap, MotionWrap } from '../../wrapper';
 import './About.scss';
 import { urlFor, client } from '../../client';
 
+import { images } from '../../constants';
+
 const About = () => {
   const [abouts, setAbouts] = useState([]);
 
@@ -21,19 +23,25 @@ const About = () => {
       <h3 className="head-text">Education & Certifications</h3>
 
       <div className="app__profiles">
-        {abouts.map((about, index) => (
-          <motion.div
-            whileInView={{ opacity: 1 }}
-            whileHover={{ scale: 1.1 }}
-            transition={{ duration: 0.5, type: 'tween' }}
+        
+          <div
             className="app__profile-item"
-            key={about.title + index}
           >
-            <img src={urlFor(about.imgUrl)} alt={about.title} />
-            <h2 className="bold-text" style={{ marginTop: 20 }}>{about.title}</h2>
-            <p className="p-text" style={{ marginTop: 10 }}>{about.description}</p>
-          </motion.div>
-        ))}
+            <img src={images.coursera} alt='coursera' />
+            <h2 className="bold-text" style={{ marginTop: 20 }}>DeepLearning.AI TensorFlow Developer Specialization</h2>
+            <p className="education_desc" style={{ marginTop: 10 }}>Issued - August 2020</p>
+          </div>
+
+          <div
+            className="app__profile-item"
+            
+          >
+            <img src={images.ubc} alt='ubc' />
+            <h2 className="bold-text" style={{ marginTop: 20 }}>B.Sc. in Mathematics and Computer Science</h2>
+            <br></br>
+            <p className="education_desc" style={{ marginTop: 10 }}>(Incomplete) 2011-2014</p>
+          </div>
+        
       </div>
     </>
   );

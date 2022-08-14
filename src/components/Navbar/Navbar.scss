@@ -65,7 +65,7 @@
         transition: all 0.3s ease-in-out;
   
         &:hover {
-          color: var(--secondary-color);
+          color: black;
         }
       }
   
@@ -152,7 +152,7 @@
             transition: all 0.3s ease-in-out;
   
             &:hover {
-              color: var(--secondary-color);
+              color: black;
             }
           }
         }
@@ -171,4 +171,5 @@
   .logo {
     font-family: Brush Script MT, Brush Script Std, cursive;
     font-weight: 100;
+    font-size: xx-large;
   }
