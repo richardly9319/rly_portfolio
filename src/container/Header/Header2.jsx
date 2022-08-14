@@ -10,7 +10,7 @@ const Header2 = () => (
         
         <img src={images.background} className="background_image"></img>
 
-        <h1 className="header_title p-text" >Aspiring Web Developer</h1>
+        <h1 className="header_title p-text" >Aspiring Web-Developer</h1>
 
         <img src={images.javascriptlogo} className="header_image1"></img>
         
