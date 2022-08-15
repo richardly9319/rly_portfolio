@@ -16,11 +16,14 @@ const App = () => {
         
         <Navbar />
         <Header2 />
-        
-        <About />
 
         <Education />
         <Work />
+        
+        <About />
+
+        
+      
         
         
 
