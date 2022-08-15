@@ -10,11 +10,14 @@ const Navbar = () => {
 
   return (
     <nav className="app__navbar">
-      
-        <h1 className="logo">Richard Ly</h1>
+        <motion.div whileHover={{ scale: 1.1 }} transition={{ duration: 0.5, type: 'tween' }}>
+        <h1 className="logo">
+          <a href={`#home`}>Richard Ly</a>
+          </h1>
+          </motion.div>
         
       <ul className="app__navbar-links">
-        {['home', 'about', 'work', 'contact'].map((item) => (
+        {['home', 'about', 'education', 'portfolio', 'contact'].map((item) => (
           <motion.div whileHover={{ scale: 1.1 }} transition={{ duration: 0.5, type: 'tween' }}>
           <li className="app__flex p-text" key={`link-${item}`}>
             <div />
@@ -34,7 +37,7 @@ const Navbar = () => {
           >
             <HiX onClick={() => setToggle(false)} />
             <ul>
-              {['home', 'about', 'work', 'contact'].map((item) => (
+              {['home', 'about', 'education', 'portfolio', 'contact'].map((item) => (
                 <li key={item}>
                   <a href={`#${item}`} onClick={() => setToggle(false)}>
                     {item}

@@ -80,7 +80,7 @@ const Footer = () => {
 
       
       
-      <SocialMedia />
+      
     </>
   );
 };

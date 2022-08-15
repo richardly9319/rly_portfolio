@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react'
 
-import { About, About2, Footer, Header, Work } from './container'
+import { About, Education, Footer, Header, Work } from './container'
 import { Navbar } from './components'
 import './App.scss'
 import Header2 from './container/Header/Header2'
@@ -18,9 +18,11 @@ const App = () => {
         <Header2 />
         
         <About />
+
+        <Education />
         <Work />
         
-        {/* <About2 /> */}
+        
 
         <Footer />
 
