@@ -79,7 +79,7 @@ const Work = () => {
       </a>
 
       <motion.div whileHover={{ scale: 1.1 }} transition={{ duration: 0.5, type: 'tween' }}>
-      <a href="https://rly-portfolio-e3j7h4cmc-richardly9319.vercel.app/" target='_blank' rel="noreferrer">
+      <a href="https://rly-portfolio.vercel.app/" target='_blank' rel="noreferrer">
       <img src={images.portfoliosite} alt='Portfolio' height={180} width={320} className="portfolio_images">
       </img>
       </a>
