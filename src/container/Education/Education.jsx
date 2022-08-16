@@ -35,7 +35,7 @@ const Education = () => {
             
           >
             
-            <a href="https://www.ubc.ca/" target='_blank' rel="noreferrer" className="education_links">
+            <a href="https://www.cs.ubc.ca/" target='_blank' rel="noreferrer" className="education_links">
             <img src={images.ubc} alt='ubc' />
             <h2 className="bold-text" style={{ marginTop: 20 }}>B.Sc. in Mathematics and Computer Science</h2>
             </a>
