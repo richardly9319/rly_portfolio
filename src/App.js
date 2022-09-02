@@ -3,7 +3,6 @@ import React, { useEffect } from 'react'
 import { About, Education, Footer, Header, Work } from './container'
 import { Navbar } from './components'
 import './App.scss'
-import Header2 from './container/Header/Header2'
 
 
 
@@ -15,7 +14,7 @@ const App = () => {
     <div className="app">
         
         <Navbar />
-        <Header2 />
+        <Header />
 
         <Education />
         <Work />

@@ -1,48 +1,25 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 
-import { AppWrap } from '../../wrapper';
 import { images } from '../../constants';
 import './Header.scss';
 
-const scaleVariants = {
-  whileInView: {
-    scale: [0, 1],
-    opacity: [0, 1],
-    transition: {
-      duration: 1,
-      ease: 'easeInOut',
-    },
-  },
-};
-
 const Header = () => (
-  <div className="app__header app__flex">
-    <motion.div
-      whileInView={{ x: [-100, 0], opacity: [0, 1] }}
-      transition={{ duration: 0.5 }}
-      className="app__header-info"
-    >
-        <div className="tag-cmp app__flex">
-          <p className="p-text">Aspiring Web Developer</p>
-          
-        </div>
-      
-    </motion.div>
 
-    <motion.div
-      variants={scaleVariants}
-      whileInView={scaleVariants.whileInView}
-      className="app__header-circles"
-    >
-      {[images.javascriptlogo, images.reacticon, images.pythonlogo].map((circle, index) => (
-        <motion.div className="circle-cmp app__flex" key={`circle-${index}`} whileHover={{ scale: 1.1 }} transition={{ duration: 0.5, type: 'tween' }}>
-          <img src={circle} alt="profile_bg" />
-        </motion.div>
-      ))}
-    </motion.div>
-  </div>
-);
+    <div>
+        
+        <img src={images.background} className="background_image"></img>
 
-export default AppWrap(Header, 'home');
-// export default Header
+        <h1 className="header_title" >Aspiring Web Developer</h1>
+
+        <img src={images.javascriptlogo} className="header_image1"></img>
+        
+        <img src={images.reacticon} className="header_image2"></img>
+
+        <img src={images.pythonlogo} className="header_image3"></img>
+        
+    </div>
+
+)
+
+export default Header
