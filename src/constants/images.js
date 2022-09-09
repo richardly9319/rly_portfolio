@@ -43,13 +43,16 @@ import realestatesite from '../assets/realestatesite.jpg'
 import tasktracker from '../assets/Tasktracker.jpg';
 import ecommercesite from '../assets/ecommercesite.jpg';
 import portfoliosite from '../assets/portfoliosite.jpg';
+import logisticssite from '../assets/logistics_site.jpg';
 
 import background from '../assets/background2.jpg'
 
 import coursera from '../assets/coursera.png'
 import ubc from '../assets/UBC.jpg'
 
+
 export default {
+  logisticssite,
   coursera,
   ubc,
   background,

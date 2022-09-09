@@ -32,8 +32,6 @@ const Work = () => {
       
       
       <motion.div whileHover={{ scale: 1.1 }} transition={{ duration: 0.5, type: 'tween' }}>
-      
-      
       <a href="https://tasktracker-delta.vercel.app/" target='_blank' rel="noreferrer">
       <img src={images.tasktracker} alt='Task Tracker' height={180} width={320} className="portfolio_images">
       </img>
@@ -51,6 +49,21 @@ const Work = () => {
       <motion.div whileHover={{ scale: 1.1 }} transition={{ duration: 0.5, type: 'tween' }}>
       <a href="https://ecommerce-kfp1f1px0-richardly9319.vercel.app/" target='_blank' rel="noreferrer">
       <img src={images.ecommercesite} alt='E-Commerce' height={180} width={320} className="portfolio_images">
+      </img>
+      </a>
+      </motion.div>
+      <br></br>
+
+      <a href="https://github.com/richardly9319/rly_logistics" target='_blank' rel="noreferrer">
+      <div className="github">
+      <h3>Logistics Business Website</h3>
+      <AiOutlineGithub />
+      </div>
+      </a>
+
+      <motion.div whileHover={{ scale: 1.1 }} transition={{ duration: 0.5, type: 'tween' }}>
+      <a href="https://rly-logistics.vercel.app/" target='_blank' rel="noreferrer">
+      <img src={images.logisticssite} alt='logistics site' height={180} width={320} className="portfolio_images">
       </img>
       </a>
       </motion.div>
