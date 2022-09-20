@@ -39,6 +39,21 @@ const Portfolio = () => {
       </motion.div>
       <br></br>
 
+      <a href="https://github.com/richardly9319/rly_logistics" target='_blank' rel="noreferrer">
+      <div className="github">
+      <h3>Logistics Business Website</h3>
+      <AiOutlineGithub />
+      </div>
+      </a>
+
+      <motion.div whileHover={{ scale: 1.1 }} transition={{ duration: 0.5, type: 'tween' }}>
+      <a href="https://rly-logistics.vercel.app/" target='_blank' rel="noreferrer">
+      <img src={images.logisticssite} alt='logistics site' height={180} width={320} className="portfolio_images">
+      </img>
+      </a>
+      </motion.div>
+      <br></br>
+      
       <a href="https://github.com/richardly9319/ecommerce" target='_blank' rel="noreferrer">
       <div className="github">
       <h3>E-Commerce Store</h3>
@@ -54,20 +69,7 @@ const Portfolio = () => {
       </motion.div>
       <br></br>
 
-      <a href="https://github.com/richardly9319/rly_logistics" target='_blank' rel="noreferrer">
-      <div className="github">
-      <h3>Logistics Business Website</h3>
-      <AiOutlineGithub />
-      </div>
-      </a>
-
-      <motion.div whileHover={{ scale: 1.1 }} transition={{ duration: 0.5, type: 'tween' }}>
-      <a href="https://rly-logistics.vercel.app/" target='_blank' rel="noreferrer">
-      <img src={images.logisticssite} alt='logistics site' height={180} width={320} className="portfolio_images">
-      </img>
-      </a>
-      </motion.div>
-      <br></br>
+      
 
       <a href="https://github.com/richardly9319/rly_realestate" target='_blank' rel="noreferrer">
       <div className="github">
