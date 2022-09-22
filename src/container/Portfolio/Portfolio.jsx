@@ -39,7 +39,7 @@ const Portfolio = () => {
       </motion.div>
       <br></br>
 
-      <a href="https://github.com/richardly9319/rly_logistics" target='_blank' rel="noreferrer">
+      {/* <a href="https://github.com/richardly9319/rly_logistics" target='_blank' rel="noreferrer">
       <div className="github">
       <h3>Logistics Business Website</h3>
       <AiOutlineGithub />
@@ -52,7 +52,7 @@ const Portfolio = () => {
       </img>
       </a>
       </motion.div>
-      <br></br>
+      <br></br> */}
       
       <a href="https://github.com/richardly9319/ecommerce" target='_blank' rel="noreferrer">
       <div className="github">
