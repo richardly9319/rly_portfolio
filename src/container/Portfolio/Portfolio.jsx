@@ -73,7 +73,7 @@ const Portfolio = () => {
 
       <a href="https://github.com/richardly9319/rly_realestate" target='_blank' rel="noreferrer">
       <div className="github">
-      <h3>Real Estate Listings from API</h3>
+      <h3>Real Estate Listings from Rapid API</h3>
       <AiOutlineGithub />
       </div>
       </a>
