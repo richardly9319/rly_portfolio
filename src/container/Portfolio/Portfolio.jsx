@@ -70,7 +70,7 @@ const Portfolio = () => {
       
       <a href="https://github.com/richardly9319/ecommerce" target='_blank' rel="noreferrer">
       <div className="github">
-      <h3>E-Commerce Store</h3>
+      <h3>E-Commerce Storefront</h3>
       <AiOutlineGithub />
       </div>
       </a>
