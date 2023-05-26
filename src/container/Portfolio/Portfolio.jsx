@@ -23,13 +23,27 @@ const Portfolio = () => {
       <br></br>
       <div className="projects">
 
+      <a href="https://github.com/richardly9319/rly_realestate" target='_blank' rel="noreferrer">
+      <div className="github">
+      <h3>Real Estate Listings from Rapid API</h3>
+      <AiOutlineGithub />
+      </div>
+      </a>
+
+      <motion.div whileHover={{ scale: 1.1 }} transition={{ duration: 0.5, type: 'tween' }}>
+      <a href="https://rly-realestate-ccsfsaxpy-richardly9319.vercel.app/" target='_blank' rel="noreferrer">
+      <img src={images.realestatesite} alt='Real estate site' height={180} width={320} className="portfolio_images">
+      </img>
+      </ a>
+      </motion.div>
+      <br></br>
+
       <a href="https://github.com/richardly9319/tasktracker" target='_blank' rel="noreferrer">
       <div className="github">
       <h3>Task Tracker App</h3>
       <AiOutlineGithub />
       </div>
       </a>
-      
       
       <motion.div whileHover={{ scale: 1.1 }} transition={{ duration: 0.5, type: 'tween' }}>
       <a href="https://tasktracker-delta.vercel.app/" target='_blank' rel="noreferrer">
@@ -66,23 +80,6 @@ const Portfolio = () => {
       <img src={images.ecommercesite} alt='E-Commerce' height={180} width={320} className="portfolio_images">
       </img>
       </a>
-      </motion.div>
-      <br></br>
-
-      
-
-      <a href="https://github.com/richardly9319/rly_realestate" target='_blank' rel="noreferrer">
-      <div className="github">
-      <h3>Real Estate Listings from Rapid API</h3>
-      <AiOutlineGithub />
-      </div>
-      </a>
-
-      <motion.div whileHover={{ scale: 1.1 }} transition={{ duration: 0.5, type: 'tween' }}>
-      <a href="https://rly-realestate-ccsfsaxpy-richardly9319.vercel.app/" target='_blank' rel="noreferrer">
-      <img src={images.realestatesite} alt='Real estate site' height={180} width={320} className="portfolio_images">
-      </img>
-      </ a>
       </motion.div>
       <br></br>
 
