@@ -20,8 +20,8 @@ const About = () => {
         
           <p className="about_me">Entrepreneur and sales professional with academic history in Computer Science </p>
           <p className="about_me"> 
-            Passionate about technology and its applications to society </p>
-          <p className="about_me">Self-motivated and curiosity driven </p>
+            Self-motivated and curiosity driven </p>
+          <p className="about_me"> Exceptional Problem Solver </p>
         
       </div>
     </>
