@@ -53,7 +53,7 @@ const Education = () => {
             
             <a href="https://www.coursera.org/account/accomplishments/verify/J2ZELHEM2VSQ" target='_blank' rel="noreferrer" className="education_links">
             <img src={images.meta} alt='meta' />
-            <h2 className="bold-text" style={{ marginTop: 20 }}>Programming in Python</h2>
+            <h2 className="bold-text" style={{ marginTop: 20 }}>Meta: Programming in Python</h2>
             </a>
             <br></br>
             <p className="education_desc" style={{ marginTop: 10 }}>Issued - May 2023</p>
