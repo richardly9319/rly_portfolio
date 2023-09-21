@@ -6,6 +6,7 @@ import './Education.scss';
 
 
 import { images } from '../../constants';
+import brainstation from '../../assets/brainstation.png'
 
 const Education = () => {
   
@@ -41,7 +42,7 @@ const Education = () => {
               
               </h2>
               </a>
-            <p className="education_desc" style={{ marginTop: 10 }}>Issued - August 2020</p>
+            <p className="education_desc" style={{ marginTop: 10 }}>Issued - Aug. 2020</p>
           </motion.div>
 
       
@@ -57,6 +58,19 @@ const Education = () => {
             </a>
             <br></br>
             <p className="education_desc" style={{ marginTop: 10 }}>Issued - May 2023</p>
+          </motion.div>
+
+          <motion.div whileHover={{ scale: 1.1 }} transition={{ duration: 0.5, type: 'tween' }}
+            className="app__profile-item"
+            
+          >
+            
+            <a href="https://brainstation.io/documents/certificates/830-984-321" target='_blank' rel="noreferrer" className="education_links">
+            <img src={brainstation} alt='meta' />
+            <h2 className="bold-text" style={{ marginTop: 20 }}>BrainStation: Web Development Bootcamp</h2>
+            </a>
+            <br></br>
+            <p className="education_desc" style={{ marginTop: 10 }}>Issued - Sep. 2023</p>
           </motion.div>
 
 

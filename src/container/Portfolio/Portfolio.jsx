@@ -7,6 +7,7 @@ import { AppWrap, MotionWrap } from '../../wrapper';
 import './Portfolio.scss';
 
 import { images } from '../../constants';
+import actio from '../../assets/actio.jpg'
 
 
 
@@ -22,6 +23,21 @@ const Portfolio = () => {
       <br></br>
       <br></br>
       <div className="projects">
+
+      <a href="https://github.com/richardly9319/Actio" target='_blank' rel="noreferrer">
+      <div className="github">
+      <h3>Full-Stack Productivity Management</h3>
+      <AiOutlineGithub />
+      </div>
+      </a>
+      
+      <motion.div whileHover={{ scale: 1.1 }} transition={{ duration: 0.5, type: 'tween' }}>
+      <a href="https://actioapp.netlify.app/" target='_blank' rel="noreferrer">
+      <img src={actio} alt='Actio Management' height={540} width={320} className="portfolio_images">
+      </img>
+      </a>
+      </motion.div>
+      <br></br>
 
       <a href="https://github.com/richardly9319/rly_realestate" target='_blank' rel="noreferrer">
       <div className="github">

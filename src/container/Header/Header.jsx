@@ -10,7 +10,7 @@ const Header = () => (
         
         <img src={images.background} className="background_image"></img>
 
-        <h1 className="header_title" >Aspiring Software Developer</h1>
+        <h1 className="header_title" >Sales Professional turned Software Developer</h1>
 
         <img src={images.javascriptlogo} className="header_image1"></img>
         
